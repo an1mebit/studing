@@ -5,7 +5,7 @@ int main (int argc, char* argv[])
    int a[10]= {0};
    int i;
    for (i = 0; i<10; i++)
-       a[i] = 1;
+       a[i] = i&1;
     for (i = 0; i<10; i++)
    printf ("%d", a[i]);
    return 0;
